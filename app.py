@@ -292,7 +292,7 @@ def history_page():
 
 @app.route('/user_guide')
 def user_guide():
-    return render_template('user.html') # Corrected from user_guide.html
+    return render_template('user_guide.html') # Corrected from user_guide.html
 
 @app.route('/tools')
 def tools_page():
